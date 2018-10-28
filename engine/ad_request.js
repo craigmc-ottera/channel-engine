@@ -127,6 +127,9 @@ class AdRequest {
 
   _requestAdsFromXchange() {
     return new Promise((resolve, reject) => {
+      request(this._adXchangeUri, (err, resp, body) => {
+        
+      });
       let ads = MOCK_ADS;
       debug(`Got ads from xchange:`);
       debug(ads);
