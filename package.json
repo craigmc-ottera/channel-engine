@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@eyevinn/hls-repeat": "^0.1.1",
-    "@eyevinn/hls-vodtolive": "^1.10.3",
+    "@eyevinn/hls-vodtolive": "git+https://github.com/craigmc-ottera/hls-vodtolive#5f0ac28e3",
     "@eyevinn/hls-truncate": "^0.1.0",
     "@eyevinn/m3u8": "^0.4.0",
     "debug": "^3.1.0",
